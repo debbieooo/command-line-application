@@ -1,0 +1,19 @@
+{
+  "name": "command-line-application",
+  "version": "1.0.0",
+  "description": "A simple command line application for weather forecasts pulled from dark sky api",
+  "main": "weatherApp.js",
+  "scripts": {
+    "test": "jasmine spec/weatherAppSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debbieooo/command-line-application.git"
+  },
+  "author": "Deborah Oni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debbieooo/command-line-application/issues"
+  },
+  "homepage": "https://github.com/debbieooo/command-line-application#readme"
+}
