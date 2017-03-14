@@ -23,7 +23,7 @@ function forecastApi(longitude,latitude){
 				try{
 					 data = JSON.parse(info);
 					
-					//console.log(data);
+					console.log(data);
 
 
 
@@ -48,11 +48,10 @@ function forecastApi(longitude,latitude){
 	});
 
 
-	return "The weather is "+ data.currently.summary+" in "+data.timezone+" "+"with a temperature of "+data.currently.temperature+ " degrees celsius";
 
 
 }
-
+forecastApi(6.5244,3.3792);
 
 module.exports.forecastApi = forecastApi;
 

@@ -2,7 +2,7 @@
   "name": "command-line-application",
   "version": "1.0.0",
   "description": "A simple command line application for weather forecasts pulled from dark sky api",
-  "main": "weatherApp.js",
+  "main": "forecastApi.js",
   "scripts": {
     "test": "jasmine spec/weatherAppSpec.js"
   },
