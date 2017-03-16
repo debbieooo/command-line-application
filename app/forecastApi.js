@@ -4,10 +4,7 @@ function forecastApi(longitude,latitude){
 
 	var data;
 
-
-
 	// weather api from https://darksky.net
-
 
 	https.get("https://api.darksky.net/forecast/48674da82142018b160dc76e31c21e5e/"+longitude+","+latitude+"?units=si",function(response){
 
@@ -25,9 +22,6 @@ function forecastApi(longitude,latitude){
 					
 					//console.log(data);
 
-
-
-
 					console.log("The weather is "+ data.currently.summary+" in "+data.timezone+" "+"with a temperature of "+data.currently.temperature+ " degrees celsius");
 
 				}
@@ -44,11 +38,7 @@ function forecastApi(longitude,latitude){
 		});
 
 
-
 	});
-
-
-
 
 }
 
