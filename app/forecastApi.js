@@ -23,7 +23,7 @@ function forecastApi(longitude,latitude){
 				try{
 					 data = JSON.parse(info);
 					
-					console.log(data);
+					//console.log(data);
 
 
 
@@ -51,8 +51,17 @@ function forecastApi(longitude,latitude){
 
 
 }
-forecastApi(6.5244,3.3792);
+
+var args = process.argv.slice(2);
+
+var longitude = args[0];
+var latitude = args[1];
+
+
+forecastApi(longitude,latitude)
 
 module.exports.forecastApi = forecastApi;
+
+
 
 
